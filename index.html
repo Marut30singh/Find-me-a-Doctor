@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find me a Doctor - Your Medical Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .map-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .map-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Find me a Doctor</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="doctorlogin.html">Doctor Login</a></li>
+        </ul>
+    </nav>
+    <section id="hospitals">
+        <h2>Hospitals</h2>
+        <p>Find directions to the nearest hospitals:</p>
+        <button class="map-button"><a href="https://www.google.com/maps/search/hospitalsnearbyme/"  target="_blank">View hospitals on Google Maps</a></button>
+    </section>
+    <section id="clinics">
+        <h2>Clinics</h2>
+        <p>Find directions to the nearest clinics:</p>
+        <button class="map-button"><a href="https://www.google.com/maps/search/clinicsnearbyme/" target="_blank">View clinics on Google Maps</a></button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Find me a Doctor- Your Medical Guide</p>
+    </footer>
+</body>
+</html>
